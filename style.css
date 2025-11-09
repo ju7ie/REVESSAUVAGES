@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Cinzel", serif;
+  background-color: rgba(22, 68, 19);
+  line-height: 1.6;
+}
+
+.hero-section {
+  min-height: 100vh;
+  position: relative;
+  background-image: url("./images/ACCUEIL.png");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.nav-button {
+  background-color: rgba(209, 199, 146);
+  border-radius: 17px;
+  padding: 5px 10px;
+  color: rgba(22, 68, 19);
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+}
+
+.hero-bottom-text {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: "Cinzel Decorative", serif;
+  font-size: 3rem;
+  letter-spacing: 0.3em;
+  color: rgba(209, 199, 146);
+}
+
+.container {
+  padding: 2rem 2rem;
+}
+
+.hero-description {
+  color: rgba(209, 199, 146);
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.75;
+  max-width: 55rem;
+  margin: 0 auto;
+}
+
+.heading-font {
+  font-family: "Cinzel Decorative", serif;
+  color: rgba(209, 199, 146);
+  letter-spacing: 0.3em;
+  font-weight: 300;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
